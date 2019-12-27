@@ -37,7 +37,7 @@ mas "PhotoSweeper (3.5.0)", id: 463362050
 mas "Pixelmator Pro (1.5.3)", id: 1289583905
 mas "Remote Desktop (3.9.3)", id: 409907375
 mas "Sip (4.5.2)", id: 507257563
-mas "The Unarchiver (4.1.0)", id 425424353
+mas "The Unarchiver (4.1.0)", id: 425424353
 mas "Tweetbot (3.3.3)", id: 1384080005
 
 # Other
