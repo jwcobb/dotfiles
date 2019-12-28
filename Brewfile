@@ -1,10 +1,13 @@
-# for good measure, I've included the default taps:
-brew tap homebrew/bundle
-brew tap homebrew/cask
-brew tap homebrew/cask-fonts
-brew tap homebrew/core
-brew tap homebrew/services
-brew tap mas-cli/tap
+## where to install homebrew-cask applications
+cask_args appdir: '/Applications'
+
+# set-up brew with taps
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/cask-fonts"
+tap "homebrew/core"
+tap "homebrew/services"
+tap "mas-cli/tap"
 
 brew "readline"
 brew "coreutils"
@@ -101,7 +104,7 @@ cask "qlvideo"
 cask "querious"
 cask "quicklook-json"
 cask "ringcentral"
-cask "safari-technology-preview"
+#cask "safari-technology-preview"
 cask "sequel-pro"
 cask "slack"
 cask "stoplight-studio"
