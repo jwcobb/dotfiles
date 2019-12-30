@@ -23,7 +23,7 @@ if test "$(uname)" = "Darwin"; then
 fi
 
 ## Laravel Homestead specific aliases
-if [ -d "~/Homestead" ]; then
+if [ -d "/Users/jcobb/Homestead" ]; then
 
 	# Add a function for Homestead
 	# @see https://laravel.com/docs/5.8/homestead#daily-usage
