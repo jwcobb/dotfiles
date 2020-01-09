@@ -1,3 +1,8 @@
+##
+# With help from https://openfolder.sh/macos-migrations-with-brewfile
+##
+
+
 ## where to install homebrew-cask applications
 cask_args appdir: '/Applications'
 
@@ -26,22 +31,23 @@ brew "zsh"
 brew "zsh-completions"
 
 # macOS App Store
-mas "1Blocker (1.4.8)", id: 1107421413
-mas "1Password 7 - Password Manager (7.4.1)", id: 1333542190
-mas "AutoMounter (1.6.5)", id: 1160435653
-mas "Cardhop (1.3.2)", id: 1290358394
-mas "Fantastical (2.5.13)", id: 975937182
-mas "GhosteryLite (1.0.0)", id: 1436953057
-mas "I Love Stars (4.4.1)", id: 402642760
-mas "Movist (2.1.8)", id: 461788075
-mas "Paprika Recipe Manager 3 (3.4.0)", id: 1303222628
-mas "PCalc (4.7)", id: 403504866
-mas "PhotoSweeper (3.5.0)", id: 463362050
-mas "Pixelmator Pro (1.5.3)", id: 1289583905
-mas "Remote Desktop (3.9.3)", id: 409907375
-mas "Sip (4.5.2)", id: 507257563
-mas "The Unarchiver (4.1.0)", id: 425424353
-mas "Tweetbot (3.3.3)", id: 1384080005
+mas "1Blocker", id: 1107421413
+mas "1Password 7", id: 1333542190
+mas "AutoMounter", id: 1160435653
+mas "Bear", id: 1091189122
+mas "Cardhop", id: 1290358394
+mas "Fantastical", id: 975937182
+mas "GhosteryLite", id: 1436953057
+mas "I Love Stars", id: 402642760
+mas "Movist", id: 461788075
+mas "Paprika Recipe Manager 3", id: 1303222628
+mas "PCalc", id: 403504866
+mas "PhotoSweeper", id: 463362050
+mas "Pixelmator Pro", id: 1289583905
+mas "Remote Desktop", id: 409907375
+mas "Sip", id: 507257563
+mas "The Unarchiver", id: 425424353
+mas "Tweetbot 3", id: 1384080005
 
 # Other
 cask "acorn"
